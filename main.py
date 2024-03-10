@@ -17,6 +17,16 @@ st.subheader("Stay ahead of customer churn with real-time predictive analytics."
 img = Image.open("logo.jpg")
 st.image(img, width=None, use_column_width=True)
 
+try:
+  img = Image.open("logo.jpg")
+except FileNotFoundError:
+  # Display a placeholder or error message
+  st.write("Logo image not found.")
+else:
+  # Display the image if found
+  st.image(img)
+
+
 
 
 
