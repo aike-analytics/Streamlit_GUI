@@ -1,0 +1,6 @@
+/__pycache__
+/login_auth/__pycache__
+/myenv
+/pages/__pycache__
+/.env
+/secrets.toml
