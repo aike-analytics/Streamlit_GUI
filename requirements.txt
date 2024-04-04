@@ -88,7 +88,6 @@ packaging==23.2
 pandas==2.1.1
 patsy==0.5.6
 Pillow==9.4.0
-pisa==3.0.33
 platformdirs==3.2.0
 plotly==5.20.0
 plotly-express==0.4.1
